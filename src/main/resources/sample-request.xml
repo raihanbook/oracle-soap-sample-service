@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://www.oracle.com/external/services/sampleservice/response/v1.0">
+    <soapenv:Header>
+        <v1:authenticationheader>
+            <v1:username>xxx</v1:username>
+            <v1:password>xxx</v1:password>
+        </v1:authenticationheader>
+    </soapenv:Header>
+    <soapenv:Body>
+        <v1:sampleservicerq>
+            <v1:service_id>1234567890</v1:service_id>
+            <v1:order_type>CH</v1:order_type>
+            <!--Optional:-->
+            <v1:type>PO</v1:type>
+            <!--Optional:-->
+            <v1:trx_id>c6714ec0-b379-11e9-889b-7f7167f4f72do</v1:trx_id>
+        </v1:sampleservicerq>
+    </soapenv:Body>
+</soapenv:Envelope>
